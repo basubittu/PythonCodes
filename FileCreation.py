@@ -8,6 +8,6 @@ data = {
 
 df = pd.DataFrame(data)
 
-df.to_csv("C:/pythonData/PythonCodes/data.csv", index=False)
+df.to_csv("C:/pythonData/PythonCodes/data1.csv", index=False)
 
 print("Data written successfully1")
