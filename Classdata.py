@@ -1,5 +1,5 @@
 
-#Constructor Inheritence
+#Constructor Inheriten
 class Square:
     def __init__(self,l,b):
         self.length=l
