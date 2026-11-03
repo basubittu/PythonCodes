@@ -10,4 +10,4 @@ df = pd.DataFrame(data)
 
 df.to_csv("C:/pythonData/PythonCodes/data.csv", index=False)
 
-print("Data written successfully")
+print("Data written successfully1")
