@@ -1,7 +1,9 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python.testing.pytestArgs": [
-        "."
+        "--headed",
+        "--browser=chromium",
+        "--browser-channel=msedge"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
