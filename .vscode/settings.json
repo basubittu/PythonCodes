@@ -3,7 +3,7 @@
     "python.testing.pytestArgs": [
         "--headed",
         "--browser=chromium",
-        "--browser-channel=msedge"
+        "--browser-channel=chrome"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
