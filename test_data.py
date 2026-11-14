@@ -1,9 +1,7 @@
 import pytest
 
 
-@pytest.fixture
-def showData():
-    print("Fixure Function")
+
 
 
 def test_newdata(showData):
