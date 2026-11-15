@@ -1,5 +1,5 @@
 import time
-from playwright.sync_api import Page
+from playwright.sync_api import Page,expect
 def test_loginPage(page:Page):
     page.goto("https://testautomationpractice.blogspot.com/")
     page.locator("//input[@id='name']").fill("Abhishek Basu")
@@ -23,6 +23,7 @@ def test_loginPage(page:Page):
     page.locator("//input[@name='SelectedDate']").click()
     page.locator("//a[text()='17']").click()
     time.sleep(2)
+    expect(page.get_by_text("Data Entry Form")).to_be_visible()
    
     
     
